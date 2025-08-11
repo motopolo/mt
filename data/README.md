@@ -1,0 +1,1 @@
+This folder contains TypeScript data sources for projects, testimonials, and case studies.

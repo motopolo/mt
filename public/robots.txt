@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://shahukosamkar.vercel.app
+
+# Sitemaps
+Sitemap: https://shahukosamkar.vercel.app/sitemap.xml
