@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111827;
+}
+
+.dark {
+  --color-bg: #0b1020;
+  --color-text: #e5e7eb;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Typography tweaks */
+.prose pre code {
+  @apply block overflow-x-auto rounded-lg p-4 bg-neutral-900 text-neutral-100;
+}
+
+.prose code:not(pre code) {
+  @apply rounded bg-neutral-100 px-1 py-0.5 text-neutral-800 dark:bg-neutral-800 dark:text-neutral-100;
+}
